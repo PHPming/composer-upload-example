@@ -1,0 +1,25 @@
+{
+	"name": "luck-ming/composer-upload-example",
+	"description": "How to upload composer package.",
+	"version": "1.0.0",
+	"type": "library",
+	"keywords": [
+		"composer"
+	],
+	"homepage": "https://github.com/luck-ming/composer-upload-example",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "ming",
+			"email": "jm_love@163.com"
+		}
+	],
+	"require": {
+		"php": ">=7.0.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Packbag\\": "src/"
+		}
+	}
+}
