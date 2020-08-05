@@ -19,7 +19,9 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Packbag\\": "src/"
+			"Packbag\\": "src/",
+			"Packbag\\Tests\\": "tests/"
 		}
-	}
+	},
+	"minimum-stability": "dev"
 }
